@@ -1,6 +1,15 @@
 <?php
+
+
+
 include("header.php");
 include("student.php");
+
+function testNewCommit(){
+	
+	 echo "tst";
+}
+
 
 class checkStatic{
 	static $age =20;
